@@ -7,20 +7,13 @@
     --banana-yellow: #ffe135;
 }
 
+
 header{
     background-color:  var(--banana-yellow);
-    height: 10vh;
     text-align: center;
     line-height: 10vh;
 }
 
-.container{
-    height: auto;
-    width: 60vw;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
 
 textarea{
     height: 15vh;
@@ -58,7 +51,7 @@ footer{
     background-color: var(--banana-yellow);
     margin: auto;
     text-align: center;
-    height: 15vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
